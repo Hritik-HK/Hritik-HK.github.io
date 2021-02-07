@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.myDiv {
+  
+  background-color: black;    
+  text-align: center;
+ }
+ h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffe0b3;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #804d00;
+}
+p {color: #ffe0b3;}
+h4 {color: #804d00;}
+
+form, select {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 230px;
+  display: inline-block;
+  border:20px solid;
+  border-image: linear-gradient( 110deg, black, #2d2d86);
+  border-image-slice: 1;
+  background-color: #ffebcc; 
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=date], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 100%; 
+  background-image: linear-gradient(to right, #804d00 ,  #ffebcc);
+  color: #804d00;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 3px solid #804d00 ;
+  border-radius: 7px;
+  cursor: pointer;
+  font-family: arial;
+  font-size: 20px
+}
+
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<div class="myDiv">
+ <h2>Registration Form</h2>
+  <p>Recheck all the details after filling the form. Don't fill it in hurry. Do it carefully.</p>
+  <p>This form is made by HRITIK KUMAR 2020UIC3631.</p>
+</div>
+
+
+<div>
+  <form action="/action_page.php">
+  	<h1 align="center">Register Now</h1>
+  	<hr>
+  	<h4 align="center">FILL ALL THE DETAILS CAREFULLY</h4>
+
+    
+    <input type="text" id="fname" name="firstname" placeholder="Enter your name">
+
+   <input type="date" id="birthday" name="birthday">
+   <input type="email" id="email" name="email" placeholder="Enter your email">
+   <input type="password" id="pwd" name="pwd" placeholder="Choose password">
+   <input type="password" id="pwd" name="pwd" placeholder="Confirm password">
+
+    
+  
+    <input type="submit" value="Create my Account">
+  </form>
+</div>
+
+
+
+
+</body>
+</html>
